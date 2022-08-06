@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+}
+
+.ac-input {
+  display: inline-block;
+  position: relative;
+}
+
+.ac-input .ac-input__dropdown {
+  position: absolute;
+  list-style: none;
+  padding: 0;
+  top: 10px;
+  left: 0;
+  right: 0;
+  background: lightgray;
+  /* max-width: 100%; */
+}
+
+.ac-input .ac-input__dropdown li {
+  padding: 5px;
+  border: 1px white solid;
+  cursor: pointer;
+}
+
+.ac-input .ac-input__dropdown li:focus {
+  border-color: blue;
+}
