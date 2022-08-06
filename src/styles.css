@@ -9,6 +9,7 @@ body {
 
 .ac-input .ac-input__dropdown {
   position: absolute;
+  display: none;
   list-style: none;
   padding: 0;
   top: 10px;
@@ -16,6 +17,10 @@ body {
   right: 0;
   background: lightgray;
   /* max-width: 100%; */
+}
+
+.ac-input .ac-input__dropdown.show {
+  display: block;
 }
 
 .ac-input .ac-input__dropdown li {
